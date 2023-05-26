@@ -1,0 +1,13 @@
+[
+  {
+    "name": "qdrant-vectordb-container",
+    "image": "qdrant/qdrant",
+    "portMappings": [
+      {
+        "containerPort": 6333,
+        "hostPort": 6333,
+        "protocol": "tcp"
+      }
+    ]
+  }
+]
